@@ -11,7 +11,7 @@
 |
 */
 
-Route::get('/', function()
+Route::get('about', function()
 {
     return View::make('pages.about');
 });
